@@ -1,21 +1,24 @@
 # BFETest
 Interview project for potential Bruin Front-end Engineer
 
-The goal of this project is to build a basic, small, working modal component for submitting a form. The form works with two APIs, one for checking if the user email is already registered, and another one to submit the user information and creating a user in the database. Its up to you to decide how to use the data from the API to create a working prototype. Feel free to use whatever tools, libraries – or even just go vanilla CSS & JS! But if you decide to use framework, use React please.
+The goal of this project is to build a basic, small, working modal component for submitting a form. The form works with two APIs, one for checking if the user email is already registered, and another one to submit the user information and creating a user in the database. Its up to you to decide how to use the data from the API to create a working prototype. Feel free to use whatever tools, libraries – or even just go vanilla CSS & JS! But if you decide to use framework, use React and Redux is required please.
 
 At minimum, your prototype should:
 
 1. GET data from the API, POST data to the API.
-2. Manage the modal open/close state.
-3. Create a UI element that collect form data and submit data successfully.
-4. Include basic form validation, and all three fields are required to save/submit the form.
-5. Follow the UI specifications from the provided Figma file, you don't need to design your own.
+2. Use Redux to manage state and dispatch.
+3. Manage the modal open/close state.
+4. Create a UI element that collect form data and submit data successfully.
+5. Include basic form validation, and all three fields are required to save/submit the form.
+6. Follow the UI specifications from the provided Figma file, you don't need to design your own.
 
 
 Extra Credit:
 
 1. Show a success modal that shows when the user is successfully created.
 2. Mock an error response, turn the modal header to red and show an error message in the modal above the form.
+3. User Redux Form to manage forms.
+4. Customized build process, webpack preferred.
 
 ## Interaction Specs
 
